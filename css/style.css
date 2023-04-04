@@ -133,7 +133,7 @@ header {
 	line-height: 42px;
 	color: var(--main-blue-color);
 }
-.hero .btn {
+.btn {
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.1em;
@@ -145,7 +145,7 @@ header {
 	margin-top: 63px;
 	transition: 0.3s ease;
 }
-.hero .btn::after {
+.btn::after {
 	content: "";
 	display: block;
 	background: #f9b640;
@@ -153,7 +153,7 @@ header {
 	width: 0;
 	transition: 0.3s ease;
 }
-.hero .btn:hover::after {
+.btn:hover::after {
 	width: 100%;
 }
 .hero .btn_full {
@@ -361,6 +361,39 @@ header {
 	letter-spacing: -0.03em;
 }
 
+.also-know .container {
+	display: flex;
+	gap: 106px;
+}
+.also-know__text {
+	padding-top: 103px;
+	padding-right: 175px;
+	padding-bottom: 42px;
+}
+.also-know .btn {
+	margin-top: 152px;
+	padding-left: 0;
+}
+.also-know__title,
+.also-know__descr {
+	color: var(--main-blue-color);
+}
+.also-know__title {
+	font-size: 16px;
+	line-height: 12px;
+	letter-spacing: 0.06em;
+	margin-bottom: 225px;
+}
+.also-know__descr {
+	font-size: 36px;
+	line-height: 53px;
+	letter-spacing: -0.01em;
+	font-weight: bold;
+}
+.brand-name {
+	color: var(--main-green-color);
+}
+
 .info .container {
 	display: flex;
 	gap: 68px;
@@ -388,7 +421,7 @@ header {
 	padding-right: 30px;
 }
 .info__block:not(:last-of-type) {
-	border-right: 1px solid #F9F9F9;
+	border-right: 1px solid #f9f9f9;
 }
 .info__links {
 	display: flex;
@@ -398,7 +431,7 @@ header {
 }
 .info__a {
 	text-decoration: none;
-	color: #006DFF;
+	color: #006dff;
 }
 
 footer {

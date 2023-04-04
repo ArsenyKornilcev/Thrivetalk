@@ -394,6 +394,58 @@ header {
 	color: var(--main-green-color);
 }
 
+.contact {
+	background: var(--main-blue-color);
+}
+.contact .container {
+	display: flex;
+	gap: 201px;
+}
+.contact__img,
+.contact_img img {
+	height: 100%;
+}
+
+.contact__text {
+	padding-top: 103px;
+	padding-left: 180px;
+	padding-bottom: 42px;
+}
+.contact .btn {
+	margin-top: 152px;
+	padding-left: 0;
+}
+.contact__subtitle,
+.contact__title,
+.contact__descr {
+	color: #fff;
+}
+.contact__subtitle {
+	font-size: 16px;
+	line-height: 12px;
+	letter-spacing: 0.06em;
+	margin-bottom: 230px;
+}
+.contact__descr {
+	font-size: 36px;
+	line-height: 53px;
+	letter-spacing: -0.01em;
+	font-weight: bold;
+}
+.contact .btn {
+	color: var(--main-green-color);
+}
+.contact .btn::after {
+	background: var(--main-green-color);
+}
+.contact__title {
+	font-size: 64px;
+	line-height: 94px;
+	letter-spacing: -0.01em;
+	font-weight: bold;
+	margin-bottom: 75px;
+}
+
 .info .container {
 	display: flex;
 	gap: 68px;

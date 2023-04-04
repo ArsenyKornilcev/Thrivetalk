@@ -361,7 +361,7 @@ header {
 	letter-spacing: -0.03em;
 }
 
-.also-know .container {
+.also-know__content {
 	display: flex;
 	gap: 106px;
 }
@@ -397,12 +397,12 @@ header {
 .contact {
 	background: var(--main-blue-color);
 }
-.contact .container {
+.contact__content {
 	display: flex;
+	flex-flow: row nowrap;
 	gap: 201px;
 }
-.contact__img,
-.contact_img img {
+.contact__img img {
 	height: 100%;
 }
 
